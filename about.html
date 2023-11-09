@@ -7,6 +7,7 @@
 	<meta name="keywords" content="HTML" />
 	<meta name="author" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styles.css">
 	<title>Nicholas' Website</title>
 </head>
 
@@ -19,11 +20,11 @@
 					<a href="index.html">Home</a> |
 					<a class="active" href="#home">About Me</a> |
 					<a href="projects.html">Projects</a> |
-					<a href="contacts.html">Contact</a> |
+					<a href="resume.html">Resume</a>
                 </nav>
 			</div>
 
-			<h1>About Me</h1>
+			<h1>Hi, I'm Nick!</h1>
 
 			<script>
 				document.getElementById('user-info').style.display = 'block';
@@ -35,45 +36,43 @@
 	<main>
 		<section class="about">
 
-            <aside>
-                <h2> <em>“Success is not final, failure is not fatal”</em> </h2>
-                <p> <strong>- Winston Churchill</strong></p>
-            </aside>
-
-			<p> Hi! I'm Nicholas Tran. Currently, I am a senior and love working with software. I've been very interested in this profession since high school, and
+			<p> I am currently in my last quarter at University of California, San Diego and love working with software. I've been very interested in this profession since high school, and
                 continuing my journey towards the end of college, I have been a part of projects that have changed my perspective of how 
                 impactful software engineers can be. For example, working with medical data to satellite imagery, the scope of what I thought 
                 a software engineer could do has broadened.
             </p>
 
-            <p> Throughout my time at University of California, San Diego, I have been given many opportunities to grow regarding the courses
+			<br>
+			<br>
+
+            <p> Throughout my time at UCSD, I have been given many opportunities to grow regarding the courses
                 I take, ranging from Data Structures & Algorithms, Web Design, and Discrete Mathematics to 3D Graphics, Databases, and Machine Learning.
                 Most importantly, being able to implement the knowledge I gained from these courses into real world applications solidified 
                 my continuously-growing passion in this field.
             </p>
+
+			<br>
+			<p>
+			I currently am proficient in the following programming languages: C++, Python, C, and Javascript. I have utilized
+			these languages in an academic, professional, and personal work setting. Check out my <a href="projects.html"><i>projects</i></a> to
+			learn more about my experience utilizing these languages.	
+			</p>
 			<br>
 
 			</p>
 
-            <picture>
+            <picture class="nick">
                 <source srcset="images/ntran.jpg" media="(orientation: portrait)" />
-                <img src="images/ntran.jpg" alt="Nicholas Tran" height="130" width="130" />
+                <img id="nick_pic"src="images/ntran.jpg" alt="Nicholas Tran" height="130" width="130" />
             </picture>
-            <br>
-            <br>
-            <p>My favorite audio to listen to by Fireship:</p>
-            <audio controls>
-                <source src="audio/C.mp3" type="audio/mpeg">
-            </audio>
-			<br>
-			<br>
 
+            <br>
+            <br>
 		</section>
 	</main>
 
 	<footer>
 		<hr/>
-		<p>This page was made by Nicholas Tran</p>
 	</footer>
 </body>
 
